@@ -6,7 +6,7 @@ import { Arrival } from "../screens/Arrival";
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
-export function AppRautes() {
+export function AppRoutes() {
   return (
     <Navigator screenOptions={{ headerShown: false }}>
       <Screen name="home" component={Home} />
